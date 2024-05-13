@@ -3,13 +3,11 @@
 MySQL database stores information about stock exchange data. File stockExchangeData.xlsx retrieves data directly from the database using ODBC, as well as currency exchange rates directly from the website. The file contains main sheets: MENU - allowing navigation to the relevant section in the report and data refreshment, REPORT - containing data visualization. Sheets storing retrieved data are: index_data, index_info, usd_exchange_rate, and the sheet with data processed for analysis is: data_processed.
 
 link to data: https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data
+
 Website with exchange rates: https://www.x-rates.com/table/?from=USD&amount=1
 
 
-<p align="center"> <img src="https://github.com/KrystianJamrogiewicz/Excel_MySQL_Stock_Exchange_Data/assets/155767356/1338fd80-9b2b-4c52-91c9-d2f667b9aa8c" alt="Database diagram"> </p>
-
-
-<p align="center"> <img src="https://github.com/KrystianJamrogiewicz/Excel_MySQL_Stock_Exchange_Data/assets/155767356/eb367667-008e-4fc4-97ca-42e6569569cc" alt="Excel MENU"></p>
+<p align="center"> <img src="https://github.com/KrystianJamrogiewicz/Excel_MySQL_Stock_Exchange_Data/assets/155767356/39909ae0-5673-4a75-9a14-ca36c04c5756" alt="Database diagram"> </p>
 
 
 <h3> Sample database queries on queriesStockExchangeData.sql file </h3>
